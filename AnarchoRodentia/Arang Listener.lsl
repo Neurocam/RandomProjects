@@ -1,6 +1,6 @@
-integer arangchan = -36187166;
+integer arangchan = 0;
 integer chan;
-key arangid = "24bba6f0-233c-84de-8a22-1573cfec0f4f";
+key arangid = "";
 default
 {
     state_entry()

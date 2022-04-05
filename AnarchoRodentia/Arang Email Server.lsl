@@ -2,7 +2,7 @@ string dokkaebicount;
 string kumihocount;
 string baekgacount;
 integer arangagentcount;
-integer arangchan = -36187166;
+integer arangchan = 0;
 default
 {
     state_entry()

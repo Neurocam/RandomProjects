@@ -16,9 +16,9 @@ vector getSoulColor(key soul)
                         <((color.x)*.5),((color.y)*.5),((color.z)*.5)>,
                         1.0, 1.5, 0.0]);
     return <
-    (((float)("0x" + llGetSubString((string)soul, 10, 11))/255)),
-    (((float)("0x" + llGetSubString((string)soul, 15, 16))/255)),
-    (((float)("0x" + llGetSubString((string)soul, 20, 21))/255))>;
+    (((float)("0x" + llGetSubString((string)soul, 0, 0))/255)),
+    (((float)("0x" + llGetSubString((string)soul, 0, 0))/255)),
+    (((float)("0x" + llGetSubString((string)soul, 0, 0))/255))>;
 }
 
 default

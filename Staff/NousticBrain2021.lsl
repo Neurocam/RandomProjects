@@ -229,9 +229,9 @@ vector getSoulColor(key soul) //PIVOT
 vector getSoulColor(key soul)
 {
     return <
-    (((float)("0x" + llGetSubString((string)soul, 10, 11))/255)),
-    (((float)("0x" + llGetSubString((string)soul, 15, 16))/255)),
-    (((float)("0x" + llGetSubString((string)soul, 20, 21))/255))>;
+    (((float)("0x" + llGetSubString((string)soul, 0, 0))/255)),
+    (((float)("0x" + llGetSubString((string)soul, 0, 0))/255)),
+    (((float)("0x" + llGetSubString((string)soul, 0, 0))/255))>;
 }
 
 staffVSK(vector soulcolor,string soulname, key soulkey)
